@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="events">אירועים</string>
+    <string name="actions">פעולות</string>
+    <string name="emergency">חירום</string>
+    <string name="disables">נטרולים</string>
+    <string name="station_name">שם תחנה</string>
+    <string name="ip">כתובת IP</string>
+    <string name="port">Port</string>
+    <string name="keep_alive_interval">קצב בדיקת חיות</string>
+    <string name="keep_alive_error_threshold">כמות חזרות לבדיקת חיות</string>
+    <string name="submit">אישור</string>
+    <string name="header">כותרת</string>
+    <string name="Remove">הסר תחנה</string>
+    <string name="add">הוסף</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="action_uploadphoto">העלה תמונה</string>
+    <string name="enter_password">הכנס סיסמא</string>
+    <string name="submitSettingsPassword">אישור</string>
+    <string name="tryagain">נסה שוב</string>
+    <string name="RestartApp">בצע הפעלה מחדש לאפליקציה</string>
+    <string name="RuleAdded">הפעולה בוצעה</string>
+    <string name="RestartApp2">כדי שהאפליקציה תעבוד בצורה תקינה, בבקשה הפעל מחדש את האפליקציה</string>
+    <string name="RestartApp3">הפעל מחדש</string>
+    <string-array name="SettingsOptions">
+        <item name="Setupstation">הגדר תחנות</item>
+        <item name="SetAction">הגדר ממסר</item>
+<!--<item name="SetCustomAction">הגדר פעולה</item>-->
+        <item name="CheckUpdates">בדוק עדכונים</item>
+    </string-array>
+    <string name="KeepAliveThreshold">חזרות לבדיקת חיות</string>
+    <string name="StationName">שם</string>
+    <string name="StationKeepAliveInterval">מחזור בדיקת חיות</string>
+    <string name="StaionAdress">כתובת</string>
+    <string name="StaionAdded">התחנה נוספה!</string>
+    <string name="Unit">יחידה</string>
+    <string name="Line">קו</string>
+    <string name="Zone">אזור</string>
+    <string name="ConnectionProblem">בעיית חיבור</string>
+    <string name="EmptyFields">מלא את כל השדות!</string>
+
+    <string name="CleanMessage">נקה</string>
+    <string name="Acknowledge">אישור התראה</string>
+    <string name="DisableObject">נטרל</string>
+    <string name="ActivateObject">הפעל</string>
+    <string name="MessageMustBeNormal">ההודעה חייבת להיות בסטטוס נורמל</string>
+
+    <string name="NoMoreinfoMessage">ההתראה הגיעה ללא תיאור, בדוק הגדרות מערכת</string>
+    <string name="ObjectID">מזהה אובייקט</string>
+    <string name="GroupID">מזהה קבוצה</string>
+    <string name="Type">סוג אובייקט</string>
+    <string name="CleanAll">נקה הכל</string>
+    <string name="DisableOU">אין אפשרות לבטל אובייקט מסוג אאוטפוט</string>
+    <string name="remove">הסר</string>
+
+    <string name="InsiteMobileVersion">InsiteMobile v1.5</string>
+    <string name="CheckForUpdate">בדוק עדכונים</string>
+    <string name="ForceRingtone">"השמע קול תמיד</string>
+    <string name="Unit_Identifier">מזהה יחידה</string>
+    <string name="Output_Identifier">מזהה מגע יבש</string>
+    <string name="Activation_Time">זמן הפעלה</string>
+    <string name="Action_name">שם ממסר</string>
+    <string name="CustomAction_name">שם פעולה</string>
+    <string name="CustomAction_id">מזהה פעולה</string>
+    <string name="Stations">תחנות</string>
+
+    <string name="choose_email_client">Choose email client</string>
+
+    <string name="AgreeToTerms">קראתי אני ומסכים לתנאי השימוש</string>
+    <string name="title_version">גרסא</string>
+    <string name="title_about_us">עוד עלינו</string>
+    <string name="summary_about_us">גלה עוד מידע עלינו</string>
+    <string name="url_about_us">https://www.elfar.co.il/</string>
+    <string name="pref_title_notifications">התראות</string>
+    <string name="pref_header_about">עוד עלינו</string>
+    <string name="pref_header_connections">חיבורים</string>
+    <string name="pref_header_general">כללי</string>
+
+    <string name="summary_activate_threshold">מניעת הצגה של התראת תקשורת גם אם התקשורת התנתקה למשך X שניות</string>
+    <string name="summary_force_ringtone">השמע צליל גם אם הפלאפון על מצב שקט</string>
+    <string name="summary_set_up">התחבר לתחנות וצור פעולות חדשות</string>
+    <string name="summary_support">שאלות נוספות? נשמח לעזור!</string>
+    <string name="summary_send_logs">שלח לוגים למפתח באמצעות אפליקציות שונות</string>
+    <string name="summary_device_admin">הפוך את האפליקציה למנהל מכשיר</string>
+    <string name="summary_date_format">בחר פורמט שבו יוצג התאריך</string>
+
+
+    <string name="title_activate_threshold">מניעת התראה על חוסר תקשורת רגעי</string>
+    <string name="title_force_ringtone">השמע צליל תמיד</string>
+    <string name="title_set_up">הגדר תחנות ופעולות</string>
+    <string name="title_send_feedback">שלח פידבק</string>
+    <string name="title_send_logs">שלח לוגים</string>
+    <string name="title_device_admin">מנהל מכשיר</string>
+    <string name="title_date_format">פורמט תאריך</string>
+
+
+
+</resources>

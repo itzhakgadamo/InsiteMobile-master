@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name" translatable="false">InsiteMobile</string>
+    <string name="tab_text_1" translatable="false">Tab 1</string>
+    <string name="tab_text_2" translatable="false">Tab 2</string>
+    <string name="tab_text_3" translatable="false">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_uploadphoto">Upload Photo</string>
+
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="events">Events</string>
+    <string name="actions">Actions</string>
+    <string name="emergency">Emergency</string>
+    <string name="disables">Disables</string>
+    <string name="station_name">Station name</string>
+    <string name="ip">IP</string>
+    <string name="port">Port</string>
+    <string name="keep_alive_interval">Keep alive interval</string>
+    <string name="keep_alive_error_threshold">Keep alive error threshold</string>
+    <string name="submit">Submit</string>
+    <string name="header">Header</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+    <string name="tryagain">Try again</string>
+    <string name="enter_password">Enter password</string>
+    <string name="submitSettingsPassword">Submit</string>
+    <string name="RestartApp">Please restart the app</string>
+    <string name="RestartApp2">App needs to be restarted to work properly after deleting a station</string>
+    <string name="RestartApp3">Restart App</string>
+    <string-array name="SettingsOptions">
+        <item name="Setupstation">Set Up Stations</item>
+        <item name="SetAction">Set Actions</item>
+        <!--<item name="SetCustomAction">Set Custom Actions</item>-->
+        <item name="CheckUpdates">Check Updates</item>
+    </string-array>
+    <string-array name="EmergencyOptions">
+        <item name="SetUpNumbers">Set emergency phone numbers</item>
+        <item name="SetEmergencyMessage">Set emergency message</item>
+    </string-array>
+    <string name="KeepAliveThreshold">Threshold</string>
+    <string name="StationName">Name</string>
+    <string name="StationKeepAliveInterval">Interval</string>
+    <string name="StaionAdress">Adress</string>
+    <string name="StaionAdded">Station added!</string>
+    <string name="Unit">Unit</string>
+    <string name="Line">Line</string>
+    <string name="Zone">Zone</string>
+    <string name="ConnectionProblem">Connection Problem</string>
+    <string name="CleanMessage">Clean</string>
+    <string name="CleanAll">Clean All</string>
+    <string name="Remove">Remove</string>
+    <string name="Acknowledge">Acknowledge</string>
+    <string name="DisableObject">Disable</string>
+    <string name="ActivateObject">Activate</string>
+    <string name="MessageMustBeNormal">Message must be normal</string>
+    <string name="DisableOU">Cannot disable OUTPUT object</string>
+    <string name="ObjectID">ObjectID</string>
+    <string name="GroupID">GroupID</string>
+    <string name="Type">Type</string>
+    <string name="RuleAdded">Rule Added</string>
+    <string name="EmptyFields">Fill all fields!</string>
+    <string name="InsiteMobileVersion">InsiteMobile v1.5</string>
+    <string name="CheckForUpdate">Check for updates</string>
+    <string name="ForceRingtone">"Force ringtone</string>
+    <string name="Unit_Identifier">Unit Identifier</string>
+    <string name="Output_Identifier">Output Identifier</string>
+    <string name="Activation_Time">Activation Time</string>
+    <string name="Action_name">Action name</string>
+    <string name="CustomAction_name">Custom Action name</string>
+    <string name="CustomAction_id">Custom Action ID</string>
+    <string name="Stations">Stations</string>
+
+    <string name="MOREINFO_OBJECTDESCRIPTION" translatable="false">OBJECT_DESCRIPTION</string>
+    <string name="MOREINFO_TIME" translatable="false">TIME</string>
+    <string name="MOREINFO_OBJECT_LOCATION_LAT" translatable="false">OBJECT_LOCATION_LAT</string>
+    <string name="MOREINFO_OBJECT_LOCATION_LON" translatable="false">OBJECT_LOCATION_LON</string>
+    <string name="EVENT_ID_MESSAGE" translatable="false">EVA,ACK,N,N,N,EVENT_ID:</string>
+    <string name="UNIQUE_ID_MESSAGE" translatable="false">MSG,ACK,N,N,N,UNIQUE_MESSAGE_ID:</string>
+    <string name="DISABLE_MESSAGE_FE" translatable="false">DIS,N,%s,%s,%s,FE</string>
+    <string name="DISABLE_MESSAGE_IN" translatable="false">DIS,N,%s,%s,%s,IN</string>
+    <string name="ACTIVATE_MESSAGE_FE" translatable="false">ENA,N,%s,%s,%s,FE</string>
+    <string name="ACTIVATE_MESSAGE_IN" translatable="false">ENA,N,%s,%s,%s,IN</string>
+
+    <string name="NoMoreinfoMessage">Message came without discription,Check system settings</string>
+    <string name="choose_email_client">Choose email client</string>
+
+    <string name="AgreeToTerms">I have read and agree to the terms of service</string>
+    <string name="title_version">Version</string>
+    <string name="title_about_us">About us</string>
+    <string name="summary_about_us">Find out more about us</string>
+    <string name="url_about_us">https://www.elfar.co.il/</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="pref_header_about">About</string>
+    <string name="pref_header_connections">Connections</string>
+    <string name="pref_header_general">General</string>
+
+
+    <string name="key_date_format">date_format</string>
+    <string name="key_activate_threshold">activate_threshold</string>
+    <string name="key_force_ringtone">key_force_ringtone</string>
+    <string name="key_set_up">key_set_up</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="key_send_logs">key_send_logs</string>
+    <string name="key_device_admin">key_device_admin</string>
+    <string name="key_set_emergency">key_set_emergency</string>
+    <string name="key_keep_app_open">key_keep_app_open</string>
+
+
+
+    <string name="summary_activate_threshold">Keep connection alive for X seconds after socket is dead</string>
+    <string name="summary_force_ringtone">Ring even when phone is on silent mode</string>
+    <string name="summary_set_up">Connect to stations and create new actions</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="summary_send_logs">Send logs via variety of apps</string>
+    <string name="summary_device_admin">Make app device admin</string>
+    <string name="summary_date_format">Pick date format for incoming messages</string>
+    <string name="summary_set_emergency">Pick a message and a list of phone numbers to alert</string>
+    <string name="summary_keep_app_open">Bring app to front when screen gets off</string>
+
+
+    <string name="title_activate_threshold">Activate Threshold</string>
+    <string name="title_force_ringtone">Force Ringtone</string>
+    <string name="title_set_up">Set up stations and actions</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_send_logs">Send Logs</string>
+    <string name="title_device_admin">Device Admin</string>
+    <string name="title_date_format">Date Format</string>
+    <string name="title_set_emergency">Set up emergency alert</string>
+    <string name="title_keep_app_open">Keep app in front</string>
+
+
+
+</resources>

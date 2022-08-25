@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvStationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/switchAction"
+        android:layout_alignEnd="@+id/tvActionName"
+        android:layout_marginBottom="-38dp"
+        android:text="StationName"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/tvActionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/switchAction"
+        android:layout_marginEnd="14dp"
+        android:text="ActionName"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/tvActivationTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tvActionName"
+        android:layout_marginEnd="127dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Switch
+        android:id="@+id/switchAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:layout_marginStart="30dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="50dp"
+        android:focusable="false"/>
+
+    <ProgressBar
+        android:id="@+id/pbRequest"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvStationName"
+        android:layout_alignBottom="@+id/switchAction"
+        android:layout_marginEnd="331dp"
+        android:layout_marginBottom="-9dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

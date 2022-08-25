@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="elfar.insitemobile.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/AppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/MainActivityToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/app_name">
+
+            <ImageView
+                android:id="@+id/elfarlogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/elfar_logo" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/HomeTabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabGravity="fill">
+
+
+
+<!--            <android.support.design.widget.TabItem
+                android:id="@+id/tiActions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/actions" />-->
+            <android.support.design.widget.TabItem
+                android:id="@+id/tiEvettable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/events" />
+            <android.support.design.widget.TabItem
+                android:id="@+id/tiDisables"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/disables" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tiActions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/actions" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tiEmergency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency" />
+
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpTabsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:isScrollContainer="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:layout_editor_absoluteY="5dp" />
+
+</android.support.design.widget.CoordinatorLayout>
